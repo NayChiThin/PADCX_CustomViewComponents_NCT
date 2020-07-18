@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ModifyCustomViewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_medium">
+        <com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.components.RoundedCornerImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            app:cornerRadius="100dp"
+            app:srcCompat="@drawable/news_sample"/>
+        <com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.components.PrefixCustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="32438294"
+            android:paddingLeft="30dp"
+            app:prefix="+959"
+            app:prefixColor="@color/colorPrimary"
+            android:layout_margin="@dimen/margin_xxlarge"
+            android:inputType="number"/>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnNavigate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/margin_medium"
+            android:src="@drawable/ic_navigate_next_black_24dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
