@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activities.CustomComponentActivity"></activity>
+        <activity android:name=".activities.FanControlActivity"></activity>
+        <activity android:name=".activities.CustomComponentActivity" />
         <activity
             android:name=".activities.ModifyCustomViewActivity"
             android:label="@string/title_activity_modify_custom_view"

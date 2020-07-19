@@ -12,4 +12,10 @@
     <string name="em_no_news">News are not available for now</string>
     <string name="title_activity_modify_custom_view">ModifyCustomViewActivity</string>
 
+    <string name="fan_control">Fan Control</string>
+    <string name="fan_off">off</string>
+    <string name="fan_low">1</string>
+    <string name="fan_medium">2</string>
+    <string name="fan_high">3</string>
+
 </resources>
